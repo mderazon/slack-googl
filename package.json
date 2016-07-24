@@ -2,14 +2,24 @@
   "name": "slack-googl",
   "version": "1.0.0",
   "description": "Url shortener as a Slack command",
-  "main": "googl.js",
+  "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mderazon/slack-googl.git"
   },
+  "engines": {
+    "node": "4.x.x"
+  },
+  "keywords": [
+    "slack",
+    "slack command",
+    "url shortener",
+    "goo.gl"
+  ],
   "author": "Michael DeRazon",
   "license": "MIT",
   "bugs": {

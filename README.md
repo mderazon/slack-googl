@@ -1,10 +1,10 @@
 # slack-googl
 
-> Goog.gl URL shortener as a slack command
+> Goog.gl URL shortener as a Slack command
 
 ## Install
 Deploy to AWS Lambda / Google Cloud Functions.
-You will a public endpoint when you set up Slack
+You will need a public endpoint when you set up Slack.
 
 ## Requirements
 Script expects two env variables:
